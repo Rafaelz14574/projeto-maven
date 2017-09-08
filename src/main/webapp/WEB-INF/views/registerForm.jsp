@@ -20,14 +20,20 @@
 					<div class="form-group">
 						<form:input path="name" class="form-control" placeholder="Nome"
 							required="required" />
+						<form:errors path="name"
+							cssClass="field-validation-valid textdanger" />
 					</div>
 					<div class="form-group">
 						<form:input path="email" class="form-control" placeholder="E-mail"
 							required="required" />
+						<form:errors path="email"
+							cssClass="field-validation-valid textdanger" />
 					</div>
 					<div class="form-group">
 						<form:password path="pwd" class="form-control" placeholder="Senha"
 							required="required" />
+						<form:errors path="pwd"
+							cssClass="field-validation-valid textdanger" />
 					</div>
 					<div class="form-group">
 						<input type="submit" value="Confirmar">
